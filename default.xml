@@ -2,10 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
+           fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
+  <remote  name="x86"
            fetch=".." />
   <default revision="refs/tags/android-4.0.1_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="1" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
