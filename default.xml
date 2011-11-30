@@ -9,26 +9,47 @@
            remote="aosp"
            sync-j="1" />
 
-  <project path="build" name="platform/build">
+  <!-- from x86 port repositories -->
+  <project path="build" name="platform/build" remote="x86" revision="ics-x86">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="kernel" name="kernel/common" remote="x86" revision="android-3.0.x" />
+  <project path="bionic" name="platform/bionic" remote="x86" revision="ics-x86" />
+  <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="ics-x86" />
+  <project path="device/amd" name="device/amd" remote="x86" revision="ics-x86" />
+  <project path="device/asus" name="device/asus" remote="x86" revision="ics-x86" />
+  <project path="device/common" name="device/common" remote="x86" revision="ics-x86" />
+  <project path="device/tegatech/tegav2" name="device/tegatech/tegav2" remote="x86" revision="ics-x86" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="ics-x86" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="ics-x86" />
+  <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="ics-x86" />
+  <project path="external/drm" name="platform/external/drm" remote="x86" revision="ics-x86" />
+  <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="ics-x86" />
+  <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="ics-x86" />
+  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="x86" revision="ics-x86" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="x86" revision="ics-x86" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="ics-x86" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="x86" revision="ics-x86" />
+  <project path="hardware/drm_gralloc" name="platform/hardware/drm_gralloc" remote="x86" revision="ics-x86" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" revision="ics-x86" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="ics-x86" />
+  <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="ics-x86" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" revision="ics-x86" />
+  <project path="sdk" name="platform/sdk" remote="x86" revision="ics-x86" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" revision="ics-x86" />
+  <project path="system/core" name="platform/system/core" remote="x86" revision="ics-x86" />
+  <project path="system/extras" name="platform/system/extras" remote="x86" revision="ics-x86" />
+  <project path="system/vold" name="platform/system/vold" remote="x86" revision="ics-x86" />
+
+  <!-- from original Android repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="device/common" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" />
-  <project path="device/ti/panda" name="device/ti/panda" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -83,7 +104,6 @@
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
@@ -116,8 +136,6 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" />
-  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
@@ -139,13 +157,8 @@
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -157,16 +170,8 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -195,7 +200,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -225,12 +229,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="prebuilt" name="platform/prebuilt" />
-  <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
 
 </manifest>
