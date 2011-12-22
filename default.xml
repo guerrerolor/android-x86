@@ -5,7 +5,7 @@
            fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
   <remote  name="x86"
            fetch=".." />
-  <default revision="refs/tags/android-4.0.1_r1"
+  <default revision="refs/tags/android-4.0.3_r1"
            remote="aosp"
            sync-j="1" />
 
@@ -34,6 +34,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" revision="ics-x86" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="ics-x86" />
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="ics-x86" />
+  <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="ics-x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" revision="ics-x86" />
   <project path="sdk" name="platform/sdk" remote="x86" revision="ics-x86" />
   <project path="system/bluetooth" name="platform/system/bluetooth" remote="x86" revision="ics-x86" />
