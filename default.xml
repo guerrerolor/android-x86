@@ -31,8 +31,10 @@
   <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="ics-x86" />
   <project path="hardware/drm_gralloc" name="platform/hardware/drm_gralloc" remote="x86" revision="ics-x86" />
   <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="ics-x86" />
+  <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="ics-x86" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" revision="ics-x86" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="ics-x86" />
+  <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="ics-x86" />
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="ics-x86" />
   <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="ics-x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" revision="ics-x86" />
