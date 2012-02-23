@@ -25,12 +25,17 @@
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="ics-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="ics-x86" />
   <project path="external/drm" name="platform/external/drm" remote="x86" revision="ics-x86" />
+  <project path="external/llvm" name="platform/external/llvm" remote="x86" revision="ics-x86" />
+  <project path="external/tslib" name="platform/external/tslib" remote="x86" revision="ics-x86" />
   <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="ics-x86" />
+  <project path="external/mksh" name="platform/external/mksh" remote="x86" revision="ics-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="ics-x86" />
+  <project path="external/webkit" name="platform/external/webkit" remote="x86" revision="ics-x86" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="x86" revision="ics-x86" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" remote="x86" revision="ics-x86" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="x86" revision="ics-x86" />
   <project path="hardware/drm_gralloc" name="platform/hardware/drm_gralloc" remote="x86" revision="ics-x86" />
+  <project path="hardware/gps" name="platform/hardware/gps" remote="x86" revision="ics-x86" />
   <project path="hardware/libaudio" name="platform/hardware/libaudio" remote="x86" revision="ics-x86" />
   <project path="hardware/libcamera" name="platform/hardware/libcamera" remote="x86" revision="ics-x86" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="x86" revision="ics-x86" />
@@ -121,11 +126,9 @@
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
-  <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
-  <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mtpd" name="platform/external/mtpd" />
   <project path="external/netcat" name="platform/external/netcat" />
@@ -150,7 +153,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" />
+  <project path="external/stlport" name="platform/external/stlport" revision="master" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
@@ -158,9 +161,8 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="platform/external/v8" />
+  <project path="external/v8" name="platform/external/v8" revision="master" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
