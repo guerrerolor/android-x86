@@ -5,7 +5,7 @@
            fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
   <remote  name="x86"
            fetch=".." />
-  <default revision="refs/tags/android-4.0.3_r1"
+  <default revision="refs/tags/android-4.0.4_r1.1"
            remote="aosp"
            sync-j="1" />
 
