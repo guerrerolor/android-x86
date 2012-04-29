@@ -5,7 +5,7 @@
            fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
   <remote  name="x86"
            fetch=".." />
-  <default revision="refs/tags/android-4.0.4_r1.1"
+  <default revision="refs/tags/android-4.0.4_r1.2"
            remote="aosp"
            sync-j="1" />
 
@@ -27,10 +27,12 @@
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="ics-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="ics-x86" />
   <project path="external/drm" name="platform/external/drm" remote="x86" revision="ics-x86" />
+  <project path="external/eject" name="platform/external/eject" remote="x86" revision="ics-x86" />
   <project path="external/llvm" name="platform/external/llvm" remote="x86" revision="ics-x86" />
   <project path="external/tslib" name="platform/external/tslib" remote="x86" revision="ics-x86" />
   <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="ics-x86" />
   <project path="external/mksh" name="platform/external/mksh" remote="x86" revision="ics-x86" />
+  <project path="external/ppp" name="platform/external/ppp" remote="x86" revision="ics-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="ics-x86" />
   <project path="external/webkit" name="platform/external/webkit" remote="x86" revision="ics-x86" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="x86" revision="ics-x86" />
@@ -44,6 +46,7 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="x86" revision="ics-x86" />
   <project path="hardware/liblights" name="platform/hardware/liblights" remote="x86" revision="ics-x86" />
   <project path="hardware/libsensors" name="platform/hardware/libsensors" remote="x86" revision="ics-x86" />
+  <project path="hardware/ril" name="platform/hardware/ril" remote="x86" revision="ics-x86" />
   <project path="packages/apps/AndroidTerm" name="platform/packages/apps/AndroidTerm" remote="x86" revision="ics-x86" />
   <project path="packages/apps/FileManager" name="platform/packages/apps/FileManager" remote="x86" revision="ics-x86" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="x86" revision="ics-x86" />
@@ -144,7 +147,6 @@
   <project path="external/pcre" name="platform/external/pcre" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
-  <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/quake" name="platform/external/quake" />
@@ -180,7 +182,6 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
