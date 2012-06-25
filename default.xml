@@ -5,7 +5,7 @@
            fetch="git://android-x86.git.sf.net/gitroot/android-x86/korg/" />
   <remote  name="x86"
            fetch=".." />
-  <default revision="refs/tags/android-4.0.4_r1.2"
+  <default revision="refs/tags/android-4.0.4_r2.1"
            remote="aosp"
            sync-j="1" />
 
@@ -16,6 +16,7 @@
   <project path="kernel" name="kernel/common" remote="x86" revision="android-3.0.x" />
   <project path="bionic" name="platform/bionic" remote="x86" revision="ics-x86" />
   <project path="bootable/newinstaller" name="platform/bootable/newinstaller" remote="x86" revision="ics-x86" />
+  <project path="dalvik" name="platform/dalvik" remote="x86" revision="ics-x86" />
   <project path="device/amd" name="device/amd" remote="x86" revision="ics-x86" />
   <project path="device/asus" name="device/asus" remote="x86" revision="ics-x86" />
   <project path="device/common" name="device/common" remote="x86" revision="ics-x86" />
@@ -62,7 +63,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
