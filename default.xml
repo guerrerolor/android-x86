@@ -24,6 +24,7 @@
   <project path="device/ibm/thinkpad" name="device/ibm/thinkpad" remote="x86" revision="ics-x86" />
   <project path="device/lenovo/s103t" name="device/lenovo/s103t" remote="x86" revision="ics-x86" />
   <project path="device/tegatech/tegav2" name="device/tegatech/tegav2" remote="x86" revision="ics-x86" />
+  <project path="device/siemens" name="device/siemens" remote="x86" revision="ics-x86" />
   <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="x86" revision="ics-x86" />
   <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="x86" revision="ics-x86" />
   <project path="external/busybox" name="platform/external/busybox" remote="x86" revision="ics-x86" />
