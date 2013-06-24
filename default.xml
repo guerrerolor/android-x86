@@ -30,10 +30,11 @@
   <project path="external/drm" name="platform/external/drm" remote="x86" revision="ics-x86" />
   <project path="external/eject" name="platform/external/eject" remote="x86" revision="ics-x86" />
   <project path="external/llvm" name="platform/external/llvm" remote="x86" revision="ics-x86" />
-  <project path="external/tslib" name="platform/external/tslib" remote="x86" revision="ics-x86" />
   <project path="external/mesa" name="platform/external/mesa" remote="x86" revision="ics-x86" />
   <project path="external/mksh" name="platform/external/mksh" remote="x86" revision="ics-x86" />
   <project path="external/ppp" name="platform/external/ppp" remote="x86" revision="ics-x86" />
+  <project path="external/srec" name="platform/external/srec" remote="x86" revision="ics-x86" />
+  <project path="external/tslib" name="platform/external/tslib" remote="x86" revision="ics-x86" />
   <project path="external/v86d" name="platform/external/v86d" remote="x86" revision="ics-x86" />
   <project path="external/webkit" name="platform/external/webkit" remote="x86" revision="ics-x86" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" remote="x86" revision="ics-x86" />
@@ -155,7 +156,6 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" revision="9ea36d08334a942d2254733ead61e19114b6f6f2" />
   <project path="external/strace" name="platform/external/strace" />
